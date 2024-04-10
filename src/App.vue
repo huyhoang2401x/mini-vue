@@ -61,7 +61,7 @@ export default {
     },
     onGetResult() {
       this.statusMatch = "result";
-      this.timer = new Date().getTime - this.settings.startedAt;
+      this.timer = new Date().getTime() - this.settings.startedAt;
     },
   },
 };
