@@ -1,23 +1,23 @@
 <template>
   <div class="screen">
-    <h1>GAME CHO NGUOI THONG MINH</h1>
-    <p>CHON CHE DO CHOI DE</p>
+    <h1>LET'S GO POKEMON</h1>
+    <p>SELECT THE GAME MODE</p>
     <div class="actions">
       <button @click="onStart(16)">
         <span>4x4</span>
-        <span>FUCKING NOOB</span>
+        <span>EASY</span>
       </button>
       <button @click="onStart(36)">
         <span>6x6</span>
-        <span>EZ</span>
+        <span>NORMAL</span>
       </button>
       <button @click="onStart(64)">
         <span>8x8</span>
-        <span>DIFFICULT</span>
+        <span>HARD</span>
       </button>
       <button @click="onStart(100)">
         <span>10x10</span>
-        <span>TRY HARD</span>
+        <span>VERY HARD</span>
       </button>
     </div>
   </div>
